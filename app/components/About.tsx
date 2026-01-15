@@ -5,17 +5,13 @@ export default function About() {
                 <div className="grid md:grid-cols-2 gap-16 items-center">
 
                     <div className="order-2 md:order-1 relative">
-                        {/* Placeholder for About Image/Visual */}
                         <div className="aspect-video rounded-xl overflow-hidden glass-card relative flex items-center justify-center p-8 bg-gradient-to-br from-gray-900 to-black">
                             <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--secondary-glow),_transparent_70%)] opacity-30"></div>
 
-                            {/* Visual Representation of Analysis */}
                             <div className="relative z-10 w-full h-full border border-[var(--card-border)] rounded-lg flex items-center justify-center">
-                                <p className="text-gray-500 font-mono text-sm">[ ML Model Processing Visualization ]</p>
-                                {/* Animated Lines could go here */}
+                                <p className="text-gray-500 font-mono text-sm">[ System Processing Visualization ]</p>
                             </div>
                         </div>
-                        {/* Decorative Element */}
                         <div className="absolute -bottom-6 -left-6 w-24 h-24 border-l-2 border-b-2 border-[var(--primary)] opacity-50"></div>
                     </div>
 

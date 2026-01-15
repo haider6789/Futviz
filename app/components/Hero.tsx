@@ -3,9 +3,8 @@ import Link from 'next/link';
 export default function Hero() {
     return (
         <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[url('/hero-bg.jpg')] bg-cover bg-center bg-no-repeat">
-            <div className="absolute inset-0 bg-black/80"></div> {/* Overlay */}
+            <div className="absolute inset-0 bg-black/80"></div>
 
-            {/* Abstract Neon Lines Background Element (CSS only) */}
             <div className="absolute inset-0 overflow-hidden pointer-events-none">
                 <div className="absolute top-0 left-1/4 w-1 h-full bg-gradient-to-b from-transparent via-[var(--primary)] to-transparent opacity-20 blur-[2px]"></div>
                 <div className="absolute top-0 right-1/4 w-1 h-full bg-gradient-to-b from-transparent via-[var(--secondary)] to-transparent opacity-20 blur-[2px]"></div>

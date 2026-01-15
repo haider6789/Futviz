@@ -15,7 +15,6 @@ export default function HowItWorks() {
                 </div>
 
                 <div className="grid md:grid-cols-4 gap-8 relative">
-                    {/* Connecting Line (Desktop) */}
                     <div className="hidden md:block absolute top-12 left-0 w-full h-0.5 bg-gradient-to-r from-[var(--primary)] to-[var(--secondary)] opacity-20 -z-1"></div>
 
                     {steps.map((step, i) => (

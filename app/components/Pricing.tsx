@@ -9,7 +9,7 @@ export default function Pricing() {
 
                 <div className="grid md:grid-cols-3 gap-12 max-w-6xl mx-auto">
 
-                    {/* Basic Plan */}
+                    {/* Tier 1: Academic / Demo */}
                     <div className="glass-card p-8 rounded-xl border-t-4 border-gray-600 flex flex-col">
                         <div className="mb-4">
                             <span className="bg-gray-800 text-xs font-bold px-2 py-1 rounded text-gray-300">ACADEMIC / DEMO</span>
@@ -26,7 +26,7 @@ export default function Pricing() {
                         </button>
                     </div>
 
-                    {/* Pro Plan */}
+                    {/* Tier 2: Professional / Team (Most Popular) */}
                     <div className="glass-card p-8 rounded-xl border-t-4 border-[var(--primary)] relative transform md:-translate-y-4 shadow-[0_0_30px_rgba(0,255,136,0.1)] flex flex-col">
                         <div className="absolute top-0 right-0 bg-[var(--primary)] text-black text-xs font-bold px-3 py-1 rounded-bl-lg">
                             POPULAR
@@ -44,7 +44,7 @@ export default function Pricing() {
                         </button>
                     </div>
 
-                    {/* Enterprise Plan */}
+                    {/* Tier 3: Enterprise / Custom */}
                     <div className="glass-card p-8 rounded-xl border-t-4 border-[var(--secondary)] flex flex-col">
                         <h3 className="text-2xl font-bold mb-2">Enterprise</h3>
                         <div className="text-4xl font-bold mb-6">Custom</div>

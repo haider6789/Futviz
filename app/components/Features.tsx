@@ -24,7 +24,6 @@ export default function Features() {
 
     return (
         <section id="features" className="section-padding bg-black relative overflow-hidden">
-            {/* Background Decor */}
             <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-[var(--primary)] opacity-5 blur-[100px] rounded-full pointer-events-none"></div>
 
             <div className="container mx-auto relative z-10">

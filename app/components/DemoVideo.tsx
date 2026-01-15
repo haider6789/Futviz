@@ -8,10 +8,8 @@ export default function DemoVideo() {
                 </div>
 
                 <div className="max-w-5xl mx-auto relative group">
-                    {/* Glowing effect behind the video */}
                     <div className="absolute -inset-1 bg-gradient-to-r from-[var(--primary)] to-[var(--secondary)] rounded-2xl blur opacity-30 group-hover:opacity-75 transition duration-1000 group-hover:duration-200"></div>
 
-                    {/* Video Container */}
                     <div className="relative rounded-2xl overflow-hidden bg-[var(--accent-dark)] aspect-video border border-[var(--card-border)] shadow-2xl">
 
                         <video
@@ -30,7 +28,6 @@ export default function DemoVideo() {
 
                     </div>
 
-                    {/* Decorative Corner Accents */}
                     <div className="absolute -top-4 -left-4 w-12 h-12 border-t-2 border-l-2 border-[var(--primary)] rounded-tl-lg pointer-events-none"></div>
                     <div className="absolute -bottom-4 -right-4 w-12 h-12 border-b-2 border-r-2 border-[var(--secondary)] rounded-br-lg pointer-events-none"></div>
                 </div>

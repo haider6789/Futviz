@@ -33,11 +33,10 @@ export default function Footer() {
                                 <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-4 h-4 bg-[#1a1a1a] border-b border-r border-gray-800 transform rotate-45"></div>
                             </div>
                         </div>
-                        <a href="#" className="hover:text-white transition-colors">GitHub</a>
+                        <a href="https://github.com/haider6789/Futviz.git" target="_blank" className="hover:text-white transition-colors">GitHub</a>
                     </div>
                 </div>
 
-                {/* Tech Stack Badges */}
                 <div className="flex flex-wrap justify-center md:justify-start gap-4 mb-16 opacity-70">
                     <span className="px-3 py-1 rounded bg-[#333] text-xs font-mono text-gray-300 border border-gray-700">Python</span>
                     <span className="px-3 py-1 rounded bg-[#333] text-xs font-mono text-gray-300 border border-gray-700">OpenCV</span>
