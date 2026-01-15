@@ -34,11 +34,11 @@ export default function Pricing() {
                             POPULAR
                         </div>
                         <h3 className="text-2xl font-bold mb-2">Pro Team</h3>
-                        <div className="text-4xl font-bold mb-6">$49<span className="text-sm font-normal text-gray-500">/ month</span></div>
+                        <div className="text-4xl font-bold mb-6">$45<span className="text-sm font-normal text-gray-500">/ month</span></div>
                         <ul className="space-y-3 mb-8 flex-1">
                             <li className="flex items-center text-white"><span className="text-[var(--primary)] mr-2">✓</span> Unlimited Matches</li>
                             <li className="flex items-center text-white"><span className="text-[var(--primary)] mr-2">✓</span> Player Trajectories</li>
-                            <li className="flex items-center text-white"><span className="text-[var(--primary)] mr-2">✓</span> 4K Video Support</li>
+                            <li className="flex items-center text-white"><span className="text-[var(--primary)] mr-2">✓</span> 1080p Video Support</li>
                             <li className="flex items-center text-white"><span className="text-[var(--primary)] mr-2">✓</span> Export to CSV/JSON</li>
                         </ul>
                         <Link href="/demo" className="w-full py-3 rounded bg-[var(--primary)] text-black font-bold hover:bg-[#00e67a] transition-colors shadow-lg shadow-[var(--primary-glow)] block text-center">
