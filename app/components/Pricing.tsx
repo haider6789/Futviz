@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Pricing() {
     return (
         <section id="pricing" className="section-padding bg-black">
@@ -21,9 +23,9 @@ export default function Pricing() {
                             <li className="flex items-center text-gray-300"><span className="text-[var(--primary)] mr-2">✓</span> Basic Heatmaps</li>
                             <li className="flex items-center text-gray-300"><span className="text-[var(--primary)] mr-2">✓</span> Standard Definition Support</li>
                         </ul>
-                        <button className="w-full py-3 rounded border border-white/20 hover:bg-white hover:text-black transition-colors font-semibold">
+                        <Link href="/demo" className="w-full py-3 rounded border border-white/20 hover:bg-white hover:text-black transition-colors font-semibold block text-center">
                             View Demo
-                        </button>
+                        </Link>
                     </div>
 
                     {/* Tier 2: Professional / Team (Most Popular) */}
@@ -39,9 +41,9 @@ export default function Pricing() {
                             <li className="flex items-center text-white"><span className="text-[var(--primary)] mr-2">✓</span> 4K Video Support</li>
                             <li className="flex items-center text-white"><span className="text-[var(--primary)] mr-2">✓</span> Export to CSV/JSON</li>
                         </ul>
-                        <button className="w-full py-3 rounded bg-[var(--primary)] text-black font-bold hover:bg-[#00e67a] transition-colors shadow-lg shadow-[var(--primary-glow)]">
+                        <Link href="/demo" className="w-full py-3 rounded bg-[var(--primary)] text-black font-bold hover:bg-[#00e67a] transition-colors shadow-lg shadow-[var(--primary-glow)] block text-center">
                             Get Started
-                        </button>
+                        </Link>
                     </div>
 
                     {/* Tier 3: Enterprise / Custom */}
