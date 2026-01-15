@@ -40,7 +40,7 @@ export default function Footer() {
                 <div className="flex flex-wrap justify-center md:justify-start gap-4 mb-16 opacity-70">
                     <span className="px-3 py-1 rounded bg-[#333] text-xs font-mono text-gray-300 border border-gray-700">Python</span>
                     <span className="px-3 py-1 rounded bg-[#333] text-xs font-mono text-gray-300 border border-gray-700">OpenCV</span>
-                    <span className="px-3 py-1 rounded bg-[#333] text-xs font-mono text-gray-300 border border-gray-700">YOLOv8</span>
+                    <span className="px-3 py-1 rounded bg-[#333] text-xs font-mono text-gray-300 border border-gray-700">YOLO</span>
                     <span className="px-3 py-1 rounded bg-[#333] text-xs font-mono text-gray-300 border border-gray-700">React</span>
                     <span className="px-3 py-1 rounded bg-[#333] text-xs font-mono text-gray-300 border border-gray-700">TensorFlow</span>
                 </div>
