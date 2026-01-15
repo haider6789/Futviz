@@ -29,7 +29,7 @@ export default function About() {
 
                         <div className="grid grid-cols-2 gap-6">
                             <div>
-                                <h4 className="text-[var(--primary)] font-bold text-2xl mb-1">95%</h4>
+                                <h4 className="text-[var(--primary)] font-bold text-2xl mb-1">90%</h4>
                                 <p className="text-sm text-gray-400">Tracking Accuracy</p>
                             </div>
                             <div>
