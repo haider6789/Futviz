@@ -15,7 +15,9 @@ export default function DemoPage() {
     const [formData, setFormData] = useState({
         coachName: '',
         clubName: '',
-        email: ''
+        email: '',
+        username: '',
+        password: ''
     });
 
     const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -64,7 +66,7 @@ export default function DemoPage() {
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
-        if (!file || !formData.coachName || !formData.clubName || !formData.email) {
+        if (!file || !formData.coachName || !formData.clubName || !formData.email || !formData.username || !formData.password) {
             setErrorMessage("Please fill in all fields and upload a video.");
             return;
         }
@@ -95,7 +97,9 @@ export default function DemoPage() {
                         name: formData.coachName,
                         club_name: formData.clubName,
                         email: formData.email,
-                        video_url: publicUrl
+                        video_url: publicUrl,
+                        username: formData.username,
+                        password: formData.password
                     }
                 ]);
 
@@ -103,7 +107,7 @@ export default function DemoPage() {
 
             setStatus('success');
             setFile(null);
-            setFormData({ coachName: '', clubName: '', email: '' });
+            setFormData({ coachName: '', clubName: '', email: '', username: '', password: '' });
 
         } catch (error: any) {
             console.error('Submission error:', error);
@@ -203,6 +207,30 @@ export default function DemoPage() {
                                         value={formData.email}
                                         onChange={handleInputChange}
                                         placeholder="coach@club.com"
+                                        className="w-full bg-black/30 border border-gray-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-[var(--primary)] focus:ring-1 focus:ring-[var(--primary)] transition-all placeholder-gray-600"
+                                    />
+                                </div>
+                                <div>
+                                    <label className="block text-sm font-bold text-gray-300 mb-2">Portfolio Username</label>
+                                    <input
+                                        type="text"
+                                        name="username"
+                                        required
+                                        value={formData.username}
+                                        onChange={handleInputChange}
+                                        placeholder="e.g. pep_guardiola"
+                                        className="w-full bg-black/30 border border-gray-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-[var(--primary)] focus:ring-1 focus:ring-[var(--primary)] transition-all placeholder-gray-600"
+                                    />
+                                </div>
+                                <div>
+                                    <label className="block text-sm font-bold text-gray-300 mb-2">Portfolio Password</label>
+                                    <input
+                                        type="password"
+                                        name="password"
+                                        required
+                                        value={formData.password}
+                                        onChange={handleInputChange}
+                                        placeholder="Create a password"
                                         className="w-full bg-black/30 border border-gray-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-[var(--primary)] focus:ring-1 focus:ring-[var(--primary)] transition-all placeholder-gray-600"
                                     />
                                 </div>
