@@ -120,7 +120,7 @@ export default function PortfolioLogin() {
                 
                 <div className="mt-8 text-center">
                     <p className="text-sm text-gray-500">
-                        Don't have a portfolio?{' '}
+                        Don&apos;t have a portfolio?{' '}
                         <Link href="/demo" className="text-[var(--primary)] hover:underline">
                             Request a Demo
                         </Link>

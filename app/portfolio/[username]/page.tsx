@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useParams, useRouter } from "next/navigation";
-import { supabase } from "../../../lib/supabaseClient";
+import { supabase } from "../../lib/supabaseClient";
 import Link from "next/link";
 
 interface PortfolioData {
@@ -88,7 +88,7 @@ export default function PortfolioDashboard() {
                 <header className="flex flex-col md:flex-row justify-between items-center mb-12 pb-6 border-b border-gray-800 gap-6">
                     <div>
                         <h1 className="text-3xl md:text-5xl font-bold mb-2">
-                            {data.name}'s <span className="neon-text-green">Portfolio</span>
+                            {data.name}&apos;s <span className="neon-text-green">Portfolio</span>
                         </h1>
                         <p className="text-gray-400 text-lg">
                             {data.club_name} • Analysis Dashboard
