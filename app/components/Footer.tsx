@@ -9,7 +9,7 @@ export default function Footer() {
                     </div>
 
                     <div className="flex gap-8 text-gray-400">
-                        <a href="#" className="hover:text-white transition-colors">Documentation</a>
+                        <a href="/FUTVIZ_Final_Report.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Documentation</a>
                         <div className="relative group">
                             <span className="cursor-pointer hover:text-white transition-colors">Research Papers</span>
                             <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-72 bg-[#1a1a1a] border border-gray-800 rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 p-2 z-50">
