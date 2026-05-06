@@ -143,7 +143,7 @@ export default function DemoPage() {
     }
 
     return (
-        <main className="min-h-screen bg-black text-white relative overflow-hidden flex flex-col items-center justify-center p-6">
+        <main className="min-h-screen bg-black text-white relative overflow-hidden flex flex-col items-center justify-center p-6 pt-32">
 
             {/* Background Effects */}
             <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none z-0">
@@ -155,9 +155,7 @@ export default function DemoPage() {
 
                 {/* Header */}
                 <div className="text-center mb-12">
-                    <Link href="/" className="inline-block mb-8 text-gray-500 hover:text-white transition-colors">
-                        ← Back to Home
-                    </Link>
+
                     <h1 className="text-4xl md:text-6xl font-bold mb-4">
                         Request a <span className="neon-text-green">Demo</span>
                     </h1>

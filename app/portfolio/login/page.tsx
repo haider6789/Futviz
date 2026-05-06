@@ -51,7 +51,7 @@ export default function PortfolioLogin() {
     };
 
     return (
-        <main className="min-h-screen bg-black text-white relative overflow-hidden flex flex-col items-center justify-center p-6">
+        <main className="min-h-screen bg-black text-white relative overflow-hidden flex flex-col items-center justify-center p-6 pt-32">
             
             {/* Background Effects */}
             <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none z-0">
@@ -62,9 +62,7 @@ export default function PortfolioLogin() {
                 
                 {/* Header */}
                 <div className="text-center mb-10">
-                    <Link href="/" className="inline-block mb-6 text-gray-500 hover:text-white transition-colors">
-                        ← Back to Home
-                    </Link>
+
                     <h1 className="text-3xl md:text-4xl font-bold mb-2">
                         Coach <span className="neon-text-green">Login</span>
                     </h1>
