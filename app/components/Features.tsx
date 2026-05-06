@@ -1,9 +1,9 @@
 export default function Features() {
     const features = [
         {
-            title: "Tactical Heatmaps",
+            title: "Tactical 2-D Radar View",
             icon: "🔥",
-            desc: "Visualize player positioning and density with high-precision heatmaps generated from match footage."
+            desc: "Visualize player positioning and density with high-precision 2-D Radar views generated from match footage."
         },
         {
             title: "Movement Tracking",

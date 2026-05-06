@@ -24,7 +24,7 @@ export default function About() {
                             Traditional analysis relies on manual tagging, which is slow and prone to error.
                         </p>
                         <p className="text-gray-300 text-lg mb-8 leading-relaxed">
-                            Our system leverages state-of-the-art <strong>Machine Learning</strong> models to autonomously track players, detect events, and generate heatmaps from standard match footage—democratizing elite-level analytics.
+                            Our system leverages state-of-the-art <strong>Machine Learning</strong> models to autonomously track players, detect events, and generate 2-D Radar views from standard match footage—democratizing elite-level analytics.
                         </p>
 
                         <div className="grid grid-cols-2 gap-6">

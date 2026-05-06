@@ -188,7 +188,7 @@ export default function PortfolioDashboard() {
                             <div className="relative z-10">
                                 <h2 className="text-2xl font-bold mb-4 text-[var(--primary)]">FUTVIZ AI Analysis is Generating...</h2>
                                 <p className="text-gray-400 mb-6 max-w-xl">
-                                    Our YOLO-powered models are currently processing your footage to extract tactical insights, player tracking metrics, and heatmaps. This typically takes a few hours depending on the video length.
+                                    Our YOLO-powered models are currently processing your footage to extract tactical insights, player tracking metrics, and 2-D Radar views. This typically takes a few hours depending on the video length.
                                 </p>
                                 <div className="flex gap-4">
                                     <div className="h-2 flex-1 bg-gray-800 rounded-full overflow-hidden">
