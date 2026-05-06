@@ -65,18 +65,6 @@ export default function FeaturesPage() {
     return (
         <main className="min-h-screen bg-black text-white selection:bg-[var(--primary)] selection:text-black">
             
-            {/* Nav spacer */}
-            <div className={`fixed top-0 w-full z-50 transition-all duration-300 ${scrolled ? 'bg-black/80 backdrop-blur-md py-4' : 'bg-transparent py-6'}`}>
-                <div className="container mx-auto px-6 flex justify-between items-center">
-                    <Link href="/" className="text-2xl font-black tracking-tighter hover:text-[var(--primary)] transition-colors">
-                        FUT<span className="text-[var(--primary)]">VIZ</span>
-                    </Link>
-                    <Link href="/demo" className="px-6 py-2 rounded-full border border-[var(--primary)] text-[var(--primary)] hover:bg-[var(--primary)] hover:text-black transition-all font-semibold text-sm shadow-[0_0_10px_rgba(0,255,136,0.2)] hover:shadow-[0_0_15px_rgba(0,255,136,0.5)]">
-                        Get Demo
-                    </Link>
-                </div>
-            </div>
-
             {/* Hero Section */}
             <section className="relative pt-40 pb-20 overflow-hidden">
                 <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-[var(--primary)]/10 blur-[120px] rounded-full pointer-events-none"></div>
