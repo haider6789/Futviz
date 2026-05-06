@@ -64,12 +64,12 @@ export default function FeaturesPage() {
 
     return (
         <main className="min-h-screen bg-black text-white selection:bg-[var(--primary)] selection:text-black">
-            
+
             {/* Hero Section */}
             <section className="relative pt-40 pb-20 overflow-hidden">
                 <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-[var(--primary)]/10 blur-[120px] rounded-full pointer-events-none"></div>
                 <div className="absolute bottom-0 right-1/4 w-64 h-64 bg-blue-500/10 blur-[100px] rounded-full pointer-events-none"></div>
-                
+
                 <div className="container mx-auto px-6 relative z-10 text-center animate-fade-in">
                     <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 mb-8 text-sm font-medium text-gray-300">
                         <span className="w-2 h-2 rounded-full bg-[var(--primary)] animate-pulse"></span>
@@ -97,13 +97,13 @@ export default function FeaturesPage() {
 
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {features.map((feature, idx) => (
-                            <div 
+                            <div
                                 key={idx}
                                 className="group relative glass-card p-8 rounded-3xl border border-white/5 bg-white/5 hover:bg-white/10 transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_20px_40px_rgba(0,255,136,0.1)] overflow-hidden"
                             >
                                 {/* Abstract hover glow */}
                                 <div className="absolute top-0 right-0 w-32 h-32 bg-[var(--primary)]/0 group-hover:bg-[var(--primary)]/10 blur-3xl rounded-full transition-all duration-500 transform translate-x-1/2 -translate-y-1/2"></div>
-                                
+
                                 <div className="w-16 h-16 rounded-2xl bg-black/50 flex items-center justify-center border border-white/10 mb-6 group-hover:border-[var(--primary)]/50 transition-colors">
                                     {feature.icon}
                                 </div>
@@ -120,7 +120,7 @@ export default function FeaturesPage() {
             {/* Competitor Comparison Section */}
             <section className="py-24 relative overflow-hidden">
                 <div className="absolute inset-0 bg-[url('/grid-pattern.svg')] opacity-5"></div>
-                
+
                 <div className="container mx-auto px-6 relative z-10">
                     <div className="text-center mb-16">
                         <h2 className="text-4xl font-bold mb-4">How We Compare</h2>
@@ -168,7 +168,7 @@ export default function FeaturesPage() {
                                     <tr className="hover:bg-white/5 transition-colors">
                                         <td className="p-6 font-medium text-gray-300">Monthly Pricing</td>
                                         <td className="p-6 font-bold text-[var(--primary)] border-x border-white/10 bg-[var(--primary)]/5 text-2xl">
-                                            $0 <span className="text-sm text-gray-400 font-normal">/ month</span>
+                                            Starting from $0 <span className="text-sm text-gray-400 font-normal">/ month</span>
                                         </td>
                                         <td className="p-6 text-red-400 font-medium">Enterprise Only</td>
                                         <td className="p-6 text-red-400 font-medium">Starts at $499/mo</td>
