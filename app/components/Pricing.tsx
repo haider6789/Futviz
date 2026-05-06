@@ -29,7 +29,7 @@ export default function Pricing() {
                     </div>
 
                     {/* Tier 2: Professional / Team (Most Popular) */}
-                    <div className="glass-card p-8 rounded-xl border-t-4 border-[var(--primary)] relative transform md:-translate-y-4 shadow-[0_0_30px_rgba(0,255,136,0.1)] flex flex-col">
+                    <div className="glass-card p-8 rounded-xl border-t-4 border-[var(--primary)] relative shadow-[0_0_30px_rgba(0,255,136,0.1)] flex flex-col">
                         <div className="absolute top-0 right-0 bg-[var(--primary)] text-black text-xs font-bold px-3 py-1 rounded-bl-lg">
                             POPULAR
                         </div>
