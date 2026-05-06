@@ -27,12 +27,12 @@ export default function Hero() {
                 </p>
 
                 <div className="flex flex-col md:flex-row gap-4 justify-center animate-fade-in opacity-0" style={{ animationDelay: '0.7s' }}>
-                    <a
-                        href="/demo"
+                    <Link
+                        href="/features"
                         className="px-8 py-4 rounded-full bg-[var(--primary)] text-black font-bold text-lg hover:bg-[#00e67a] transition-all transform hover:scale-105 shadow-[0_0_20px_rgba(0,255,136,0.5)]"
                     >
                         Explore Features
-                    </a>
+                    </Link>
                     <a
                         href="/demo"
                         className="px-8 py-4 rounded-full border border-white text-white font-bold text-lg hover:bg-white hover:text-black transition-all transform hover:scale-105"
