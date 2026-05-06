@@ -56,9 +56,14 @@ export default function Pricing() {
                             <li className="flex items-center text-gray-300"><span className="text-[var(--secondary)] mr-2">✓</span> Multi-Team Management</li>
                             <li className="flex items-center text-gray-300"><span className="text-[var(--secondary)] mr-2">✓</span> Dedicated Support</li>
                         </ul>
-                        <button className="w-full py-3 rounded border border-white/20 hover:bg-[var(--secondary)] hover:text-black hover:border-transparent transition-colors font-semibold">
+                        <a 
+                            href="https://wa.me/923308168766?text=Hi%20FUTVIZ%20Team!%20I'm%20interested%20in%20the%20Enterprise%20plan%20for%20my%20club." 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="w-full py-3 rounded border border-white/20 hover:bg-[var(--secondary)] hover:text-black hover:border-transparent transition-colors font-semibold block text-center"
+                        >
                             Contact Sales
-                        </button>
+                        </a>
                     </div>
 
                 </div>
