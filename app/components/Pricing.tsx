@@ -34,16 +34,16 @@ export default function Pricing() {
                             POPULAR
                         </div>
                         <h3 className="text-2xl font-bold mb-2">Pro Team</h3>
-                        <div className="text-4xl font-bold mb-6">$45<span className="text-sm font-normal text-gray-500">/ month</span></div>
+                        <div className="text-4xl font-bold mb-6">$45<span className="text-sm font-normal text-gray-500">/ Match</span></div>
                         <ul className="space-y-3 mb-8 flex-1">
                             <li className="flex items-center text-white"><span className="text-[var(--primary)] mr-2">✓</span> Unlimited Matches</li>
                             <li className="flex items-center text-white"><span className="text-[var(--primary)] mr-2">✓</span> Player Trajectories</li>
                             <li className="flex items-center text-white"><span className="text-[var(--primary)] mr-2">✓</span> 1080p Video Support</li>
                             <li className="flex items-center text-white"><span className="text-[var(--primary)] mr-2">✓</span> Export to CSV/JSON</li>
                         </ul>
-                        <a 
-                            href="https://wa.me/923308168766?text=Hi%20FUTVIZ%20Team!%20I'm%20interested%20in%20the%20Pro%20Team%20plan." 
-                            target="_blank" 
+                        <a
+                            href="https://wa.me/923308168766?text=Hi%20FUTVIZ%20Team!%20I'm%20interested%20in%20the%20Pro%20Team%20plan."
+                            target="_blank"
                             rel="noopener noreferrer"
                             className="w-full py-3 rounded bg-[var(--primary)] text-black font-bold hover:bg-[#00e67a] transition-colors shadow-lg shadow-[var(--primary-glow)] block text-center"
                         >
@@ -57,16 +57,16 @@ export default function Pricing() {
                             LOCAL
                         </div>
                         <h3 className="text-2xl font-bold mb-2">Pakistani Clubs</h3>
-                        <div className="text-4xl font-bold mb-6">2500<span className="text-lg font-normal text-gray-500"> PKR</span><span className="text-sm font-normal text-gray-500"> / match</span></div>
+                        <div className="text-4xl font-bold mb-6">2500<span className="text-lg font-normal text-gray-500"> PKR</span><span className="text-sm font-normal text-gray-500"> / Match</span></div>
                         <ul className="space-y-3 mb-8 flex-1">
                             <li className="flex items-center text-white"><span className="text-[#00e67a] mr-2">✓</span> Full Tactical Breakdown</li>
                             <li className="flex items-center text-white"><span className="text-[#00e67a] mr-2">✓</span> Priority Local Support</li>
                             <li className="flex items-center text-white"><span className="text-[#00e67a] mr-2">✓</span> Easy Local Payments</li>
                             <li className="flex items-center text-[#00e67a] bg-[#00e67a]/10 p-2 rounded-lg border border-[#00e67a]/20 font-medium text-sm mt-2"><span className="mr-2">🎁</span> 40% OFF on every 4th video!</li>
                         </ul>
-                        <a 
-                            href="https://wa.me/923308168766?text=Hi%20FUTVIZ%20Team!%20I'm%20a%20local%20club%20interested%20in%20the%202500%20PKR%20plan." 
-                            target="_blank" 
+                        <a
+                            href="https://wa.me/923308168766?text=Hi%20FUTVIZ%20Team!%20I'm%20a%20local%20club%20interested%20in%20the%202500%20PKR%20plan."
+                            target="_blank"
                             rel="noopener noreferrer"
                             className="w-full py-3 rounded border border-white/20 hover:bg-[#00e67a] hover:text-black hover:border-transparent transition-colors font-semibold block text-center"
                         >
@@ -84,9 +84,9 @@ export default function Pricing() {
                             <li className="flex items-center text-gray-300"><span className="text-[var(--secondary)] mr-2">✓</span> Multi-Team Management</li>
                             <li className="flex items-center text-gray-300"><span className="text-[var(--secondary)] mr-2">✓</span> Dedicated Support</li>
                         </ul>
-                        <a 
-                            href="https://wa.me/923308168766?text=Hi%20FUTVIZ%20Team!%20I'm%20interested%20in%20the%20Enterprise%20plan%20for%20my%20club." 
-                            target="_blank" 
+                        <a
+                            href="https://wa.me/923308168766?text=Hi%20FUTVIZ%20Team!%20I'm%20interested%20in%20the%20Enterprise%20plan%20for%20my%20club."
+                            target="_blank"
                             rel="noopener noreferrer"
                             className="w-full py-3 rounded border border-white/20 hover:bg-[var(--secondary)] hover:text-black hover:border-transparent transition-colors font-semibold block text-center"
                         >
