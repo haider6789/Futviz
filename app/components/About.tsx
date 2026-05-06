@@ -4,15 +4,23 @@ export default function About() {
             <div className="container mx-auto">
                 <div className="grid md:grid-cols-2 gap-16 items-center">
 
-                    <div className="order-2 md:order-1 relative">
-                        <div className="aspect-video rounded-xl overflow-hidden glass-card relative flex items-center justify-center p-8 bg-gradient-to-br from-gray-900 to-black">
-                            <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--secondary-glow),_transparent_70%)] opacity-30"></div>
+                    <div className="order-2 md:order-1 relative group cursor-pointer">
+                        <div className="aspect-video rounded-xl overflow-hidden glass-card relative flex items-center justify-center bg-black border border-white/10 shadow-2xl">
+                            <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--secondary-glow),_transparent_70%)] opacity-30 group-hover:opacity-60 transition-opacity duration-700 z-0"></div>
 
-                            <div className="relative z-10 w-full h-full border border-[var(--card-border)] rounded-lg flex items-center justify-center">
-                                <p className="text-gray-500 font-mono text-sm">[ System Processing Visualization ]</p>
+                            <img 
+                                src="/about-hud.png" 
+                                alt="FUTVIZ AI Analysis HUD" 
+                                className="relative z-10 w-full h-full object-cover opacity-75 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700"
+                            />
+
+                            {/* Center interactive pulse element */}
+                            <div className="absolute inset-0 flex items-center justify-center z-20 pointer-events-none">
+                                <div className="w-24 h-24 border border-[var(--primary)] rounded-full animate-ping opacity-20 group-hover:opacity-40"></div>
+                                <div className="absolute w-2 h-2 bg-[var(--primary)] rounded-full group-hover:animate-pulse"></div>
                             </div>
                         </div>
-                        <div className="absolute -bottom-6 -left-6 w-24 h-24 border-l-2 border-b-2 border-[var(--primary)] opacity-50"></div>
+                        <div className="absolute -bottom-6 -left-6 w-24 h-24 border-l-2 border-b-2 border-[var(--primary)] opacity-50 group-hover:opacity-100 group-hover:-translate-x-2 group-hover:translate-y-2 transition-all duration-500 z-0 pointer-events-none"></div>
                     </div>
 
                     <div className="order-1 md:order-2">

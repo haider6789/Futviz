@@ -41,9 +41,14 @@ export default function Pricing() {
                             <li className="flex items-center text-white"><span className="text-[var(--primary)] mr-2">✓</span> 1080p Video Support</li>
                             <li className="flex items-center text-white"><span className="text-[var(--primary)] mr-2">✓</span> Export to CSV/JSON</li>
                         </ul>
-                        <Link href="/demo" className="w-full py-3 rounded bg-[var(--primary)] text-black font-bold hover:bg-[#00e67a] transition-colors shadow-lg shadow-[var(--primary-glow)] block text-center">
+                        <a 
+                            href="https://wa.me/923308168766?text=Hi%20FUTVIZ%20Team!%20I'm%20interested%20in%20the%20Pro%20Team%20plan." 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="w-full py-3 rounded bg-[var(--primary)] text-black font-bold hover:bg-[#00e67a] transition-colors shadow-lg shadow-[var(--primary-glow)] block text-center"
+                        >
                             Get Started
-                        </Link>
+                        </a>
                     </div>
 
                     {/* Tier 3: Local Clubs */}
