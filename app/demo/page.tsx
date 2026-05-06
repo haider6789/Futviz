@@ -80,7 +80,9 @@ export default function DemoPage() {
             const fileName = `${Date.now()}_${Math.random().toString(36).substring(7)}.${fileExt}`;
             const { error: uploadError } = await supabase.storage
                 .from('videos')
-                .upload(fileName, file);
+                .upload(fileName, file, {
+                    contentType: file.type || 'video/quicktime'
+                });
 
             if (uploadError) throw uploadError;
 
@@ -253,7 +255,7 @@ export default function DemoPage() {
                                         type="file"
                                         className="hidden"
                                         onChange={handleChange}
-                                        accept="video/*"
+                                        accept="video/*,.mov,video/quicktime"
                                     />
 
                                     {file ? (
