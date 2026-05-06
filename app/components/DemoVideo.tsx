@@ -13,17 +13,15 @@ export default function DemoVideo() {
                     <div className="relative rounded-2xl overflow-hidden bg-[var(--accent-dark)] aspect-video border border-[var(--card-border)] shadow-2xl">
 
                         <video
-                            key="output-main"
+                            key="demo_video_v2"
                             className="w-full h-full object-cover"
                             controls
                             muted
                             autoPlay
                             loop
-                            playsInline // Added for better compatibility with mobile browsers
-                            poster="/hero-bg.jpg"
+                            playsInline
                         >
-                            {/* The path starts at / because the file is in the 'public' folder */}
-                            <source src="/output.mp4" type="video/mp4" />
+                            <source src="/demo_video_v2.mp4?v=2" type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
 
